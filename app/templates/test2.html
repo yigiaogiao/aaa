@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+    {{ super() }}
+    {% for key,value in data.items() %}
+        {{ key }}
+        {{ value }}
+        {% set message = get_flashed_messages() %}
+        {{ message }}
+    {% endfor %}
+{% endblock %}

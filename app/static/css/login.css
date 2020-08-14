@@ -1,0 +1,24 @@
+/*.password-box {*/
+  /*background-color: #EBEBEB;*/
+/*}*/
+body {
+  font-size: 14px;
+  background-image: url('../images/bgocean.jpg');
+  filter : "progid:DXImageTransform.Microsoft.AlphaImageLoader ( enabled='bEnabled' , sizingMethod='sSize' , src='sURL' )";
+  background-size:cover;
+  -moz-background-size:cover;
+}
+#forget-password:before {
+  content: '';
+  border-left: 1px solid #999;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+#password {
+  width: 75%;
+}
